@@ -1,4 +1,5 @@
-# CISLoginPage
+# CIS Group Project
+
 # Vulnerable Login Page
 
 This project is intentionally vulnerable for cybersecurity learning purposes.
