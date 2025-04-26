@@ -15,5 +15,3 @@ This project is intentionally vulnerable for cybersecurity learning purposes.
 7. **Open Redirect**: Redirect URL is user-controllable after login.
 
 ---
-
-⚠️ **WARNING:** This project is intentionally insecure. Do NOT deploy it publicly without heavy warnings.
