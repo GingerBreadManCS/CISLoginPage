@@ -15,7 +15,7 @@ $query = "SELECT * FROM users WHERE username = '$username' AND password = '$pass
 $result = $db->query($query);
 
 // XSS Vulnerability
-echo "Hello, " . $username . "!<br>";
+echo "Hello, " . htmlspecialchars($username) . "!<br>";
 
 if ($row = $result->fetchArray()) {
     // Weak Authentication (no complexity check)
